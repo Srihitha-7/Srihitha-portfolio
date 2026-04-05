@@ -17,13 +17,15 @@ CSS3:Custom styling with Flexbox, Grid, Glassmorphism, and Keyframe animations.
 
 Project Structure
 
+```
 portfolio-website
-├── index.html       → Home page with hero section and profile card
-├── about.html       → About Me section with Skills breakdown
-├── projects.html    → Featured Projects showcase
-├── contact.html     → Contact form and social links
-└── style.css        → Shared styles across all pages
+├── index.html → Home page with hero section and profile card
+├── about.html → About Me section with skills breakdown
+├── projects.html → Featured projects showcase
+├── contact.html → Contact form and social links
+└── style.css → Shared styles across all pages
 
+```
 Pages
 
 index.html— Landing page featuring a hero section and profile card with photo.

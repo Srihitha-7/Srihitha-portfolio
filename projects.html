@@ -3,63 +3,60 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projects · G.Srihitha</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,600&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="style.css"/>
+  <title>G.Srihitha · Projects</title>
+  <link rel="stylesheet" href="css.css"/>
 </head>
 <body>
-
 <nav>
-  <a href="index.html" class="logo">G.Srihitha</a>
+  <a href="home.html" class="logo">G.Srihitha</a>
   <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
+    <li><a href="home.html">Home</a></li>
     <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
     <li><a href="projects.html" class="active">Projects</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
   <a href="contact.html" class="nav-cta">Say Hello</a>
 </nav>
 
-<section class="section projects-section" style="padding-top:calc(64px + 3rem);">
+<section class="section" style="background:var(--bg-alt);animation:fadeUp .35s ease forwards;">
   <div class="wrap">
     <div class="proj-hd">
       <div>
         <span class="sec-label">03 — What I've Built</span>
         <h2 class="sec-title" style="margin-bottom:0">Featured <strong>Projects</strong></h2>
       </div>
-      <a href="https://github.com/Srihitha-7" target="_blank" class="btn-ghost">GitHub →</a>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-ghost">GitHub →</a>
     </div>
     <div class="proj-grid">
-      <div class="p-card glass">
-        <div class="p-thumb t-a">🧠</div>
-        <div class="p-body">
-          <span class="p-tag">Machine Learning</span>
-          <h3>Sentiment Analysis API</h3>
-          <p>Fine-tuned BERT for real-time sentiment classification deployed on AWS Lambda with auto-scaling.</p>
-          <div class="p-stack"><span>PyTorch</span><span>BERT</span><span>AWS Lambda</span></div>
-          <div class="p-links"><a href="#">GitHub →</a><a href="#">Demo →</a></div>
+
+      <div class="p-card-wrap">
+        <div class="p-card">
+          <div class="p-bg p-bg-a"></div>
+          <div class="p-img"><img src="https://cdn-media-1.freecodecamp.org/images/1*TdiVdPnYkvgl3qWnLGgOcg.jpeg" alt="Sentiment"/><div class="p-label">Sentiment</div></div>
+          <div class="p-links"><a href="#" class="p-link">GitHub →</a><a href="#" class="p-link">Demo ↗</a><a href="#" class="p-link p-link-star">★</a></div>
         </div>
+        <div class="p-info"><span class="p-tag">Machine Learning</span><h3>Sentiment Analysis API</h3><p>Fine-tuned BERT for real-time sentiment classification deployed on AWS Lambda with auto-scaling.</p><div class="p-stack"><span>PyTorch</span><span>BERT</span><span>AWS Lambda</span></div></div>
       </div>
-      <div class="p-card glass">
-        <div class="p-thumb t-b">☁️</div>
-        <div class="p-body">
-          <span class="p-tag">Cloud Computing</span>
-          <h3>Cloud ML Pipeline</h3>
-          <p>End-to-end MLOps on AWS SageMaker with automated CI/CD, data ingestion, training and deployment.</p>
-          <div class="p-stack"><span>SageMaker</span><span>S3</span><span>MLflow</span></div>
-          <div class="p-links"><a href="#">GitHub →</a><a href="#">Demo →</a></div>
+
+      <div class="p-card-wrap">
+        <div class="p-card">
+          <div class="p-bg p-bg-b"></div>
+          <div class="p-img"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&q=80" alt="ML Pipeline"/><div class="p-label">ML Pipeline</div></div>
+          <div class="p-links"><a href="#" class="p-link">GitHub →</a><a href="#" class="p-link">Demo ↗</a><a href="#" class="p-link p-link-star">★</a></div>
         </div>
+        <div class="p-info"><span class="p-tag">Cloud Computing</span><h3>Cloud ML Pipeline</h3><p>End-to-end MLOps on AWS SageMaker with automated CI/CD, data ingestion, training and deployment.</p><div class="p-stack"><span>SageMaker</span><span>S3</span><span>MLflow</span></div></div>
       </div>
-      <div class="p-card glass">
-        <div class="p-thumb t-c">👁️</div>
-        <div class="p-body">
-          <span class="p-tag">Computer Vision</span>
-          <h3>Image Classifier App</h3>
-          <p>CNN-based image classifier using TensorFlow, containerized with Docker and hosted on Google Cloud Run.</p>
-          <div class="p-stack"><span>TensorFlow</span><span>Docker</span><span>GCP</span></div>
-          <div class="p-links"><a href="#">GitHub →</a><a href="#">Demo →</a></div>
+
+      <div class="p-card-wrap">
+        <div class="p-card">
+          <div class="p-bg p-bg-c"></div>
+          <div class="p-img"><img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1000&q=80" alt="Classifier"/><div class="p-label">Classifier</div></div>
+          <div class="p-links"><a href="#" class="p-link">GitHub →</a><a href="#" class="p-link">Demo ↗</a><a href="#" class="p-link p-link-star">★</a></div>
         </div>
+        <div class="p-info"><span class="p-tag">Computer Vision</span><h3>Image Classifier App</h3><p>CNN-based image classifier using TensorFlow, containerized with Docker and hosted on Google Cloud Run.</p><div class="p-stack"><span>TensorFlow</span><span>Docker</span><span>GCP</span></div></div>
       </div>
+
     </div>
   </div>
 </section>
@@ -67,13 +64,13 @@
 <footer>
   <span class="f-brand">G.Srihitha</span>
   <nav class="f-nav">
-    <a href="index.html">Home</a>
+    <a href="home.html">Home</a>
     <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
     <a href="projects.html">Projects</a>
     <a href="contact.html">Contact</a>
   </nav>
-  <p class="f-copy">© 2026 G.Srihitha · ML & Cloud Enthusiast · Pure HTML & CSS</p>
+  <p class="f-copy">© 2026 G.Srihitha · ML &amp; Cloud Enthusiast · Pure HTML &amp; CSS</p>
 </footer>
-
 </body>
 </html>
